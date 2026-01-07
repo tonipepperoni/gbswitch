@@ -1,6 +1,6 @@
 {
   "name": "gbswitch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to quickly switch between recent git branches with an interactive TUI",
   "main": "index.js",
   "bin": {
