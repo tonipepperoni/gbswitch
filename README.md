@@ -39,6 +39,58 @@ gbswitch
 - **Time display**: Shows how long ago each branch was last committed to
 - **Current branch display**: Shows your current branch at the top for reference
 
+## Shell Aliases
+
+Add a shorter alias for quick access:
+
+### Bash
+
+Add to `~/.bashrc`:
+
+```bash
+alias gb="gbswitch"
+```
+
+### Zsh
+
+Add to `~/.zshrc`:
+
+```bash
+alias gb="gbswitch"
+```
+
+### Fish
+
+Run once or add to `~/.config/fish/config.fish`:
+
+```fish
+alias gb="gbswitch"
+```
+
+Or create a persistent abbreviation:
+
+```fish
+abbr -a gb gbswitch
+```
+
+### PowerShell
+
+Add to your PowerShell profile (`$PROFILE`):
+
+```powershell
+Set-Alias -Name gb -Value gbswitch
+```
+
+After adding the alias, restart your terminal or reload your config:
+
+```bash
+# Bash/Zsh
+source ~/.bashrc  # or ~/.zshrc
+
+# Fish
+source ~/.config/fish/config.fish
+```
+
 ## Requirements
 
 - Node.js (v12 or higher)
