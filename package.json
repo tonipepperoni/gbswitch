@@ -1,0 +1,42 @@
+{
+  "name": "gbswitch",
+  "version": "1.0.0",
+  "description": "A CLI tool to quickly switch between recent git branches with an interactive TUI",
+  "main": "index.js",
+  "bin": {
+    "gbswitch": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "branch",
+    "cli",
+    "switcher",
+    "checkout",
+    "interactive",
+    "tui"
+  ],
+  "author": "tonipepperoni",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonipepperoni/gbswitch.git"
+  },
+  "homepage": "https://github.com/tonipepperoni/gbswitch#readme",
+  "bugs": {
+    "url": "https://github.com/tonipepperoni/gbswitch/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  }
+}
